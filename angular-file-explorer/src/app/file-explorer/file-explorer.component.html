@@ -20,7 +20,7 @@
   </div>
 </div>
 
-<mat-menu #rootMenu="matMenu" [overlapTrigger]="false">
+<mat-menu #rootMenu="matMenu" [overlapTrigger]="true">
   <ng-template matMenuContent let-element="element">
     <button mat-menu-item [matMenuTriggerFor]="moveToMenu" [matMenuTriggerData]="{self: element}">
       <mat-icon>open_with</mat-icon>

@@ -1,0 +1,41 @@
+.combo-container {
+position: fixed;
+z-index: 9;
+background: white;
+}
+
+.input-control {
+width: 165px;
+border: 1px solid black;
+}
+
+.data-container {
+width: 196px;
+background: white;
+display: block;
+position: relative;
+border: 1px solid grey;
+height: 200px;
+overflow-y: scroll;
+top: -1px;
+}
+
+.data-list {
+cursor: pointer;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+
+.drop-down {
+border: 1px solid black;
+width: 196px;
+}
+
+.drop-down-button {
+border: 1px solid black;
+background: white;
+}
+
+.highlight {
+background: grey;
+}
